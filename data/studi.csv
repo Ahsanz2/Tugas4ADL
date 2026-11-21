@@ -1,0 +1,42 @@
+studi,nama,model,varian,mape_validasi,mape_normal,mape_covid,mape_semua
+adaptasi,latih ulang mingguan +penanda intervensi,latih ulang mingguan +penanda intervensi,,2.1789,2.9409,3.7555,3.2065
+adaptasi,latih ulang mingguan,latih ulang mingguan,,2.2354,2.9344,3.7944,3.2147
+adaptasi,statis,statis,,2.2463,3.0209,5.101,3.699
+dekomp,CNN-LSTM | CEEMDAN,CNN-LSTM,CEEMDAN,2.2675,3.1015,5.7352,3.96
+dekomp,CNN-LSTM | EMD,CNN-LSTM,EMD,2.3864,3.0233,5.2778,3.7582
+dekomp,CNN-LSTM | VMD,CNN-LSTM,VMD,2.2803,3.0724,5.3674,3.8205
+dekomp,CNN-LSTM | tanpa,CNN-LSTM,tanpa,2.3266,3.0385,5.1411,3.7239
+dekomp,Chronos-2 | CEEMDAN,Chronos-2,CEEMDAN,3.3353,4.4762,3.7355,4.2347
+dekomp,Chronos-2 | EMD,Chronos-2,EMD,3.2156,4.2048,3.7947,4.0711
+dekomp,Chronos-2 | VMD,Chronos-2,VMD,4.3669,5.0731,4.5781,4.9118
+dekomp,Chronos-2 | tanpa,Chronos-2,tanpa,2.5903,3.4235,2.7906,3.2172
+dekomp,Chronos-Bolt-small | CEEMDAN,Chronos-Bolt-small,CEEMDAN,7.9968,7.7959,5.7403,7.1259
+dekomp,Chronos-Bolt-small | EMD,Chronos-Bolt-small,EMD,8.448,7.9265,6.0484,7.3143
+dekomp,Chronos-Bolt-small | VMD,Chronos-Bolt-small,VMD,6.057,6.2531,5.0783,5.8702
+dekomp,Chronos-Bolt-small | tanpa,Chronos-Bolt-small,tanpa,2.77,3.5583,2.8676,3.3332
+dekomp,LightGBM | CEEMDAN,LightGBM,CEEMDAN,2.1785,3.0272,5.0573,3.6889
+dekomp,LightGBM | EMD,LightGBM,EMD,2.2452,3.0348,4.9875,3.6714
+dekomp,LightGBM | VMD-bocor,LightGBM,VMD-bocor,1.7395,2.1471,3.5704,2.6111
+dekomp,LightGBM | VMD,LightGBM,VMD,2.1865,2.9567,5.2701,3.7108
+dekomp,LightGBM | tanpa,LightGBM,tanpa,2.2463,3.0209,5.101,3.699
+dekomp,N-BEATSx | CEEMDAN,N-BEATSx,CEEMDAN,2.2872,3.1565,3.9062,3.4009
+dekomp,N-BEATSx | EMD,N-BEATSx,EMD,2.4276,3.2001,3.8958,3.4269
+dekomp,N-BEATSx | VMD,N-BEATSx,VMD,2.2364,3.1683,4.1533,3.4894
+dekomp,N-BEATSx | tanpa,N-BEATSx,tanpa,2.3592,3.1349,4.1527,3.4667
+efisiensi,N-BEATSx | 180,N-BEATSx,180,2.8696,3.6617,4.246,3.8522
+efisiensi,N-BEATSx | 30,N-BEATSx,30,3.723,4.878,4.4973,4.7539
+input,01 lag target,01 lag target,,5.3291,5.7714,5.9571,5.8319
+input,02 +lag musiman,02 +lag musiman,,3.3863,4.1284,5.2485,4.4935
+input,03 +statistik bergulir,03 +statistik bergulir,,3.1084,3.8272,5.5698,4.3952
+input,04 +selisih,04 +selisih,,3.0417,3.7563,5.2395,4.2398
+input,05 +kalender,05 +kalender,,2.8808,3.525,4.9004,3.9734
+input,06 +Fourier,06 +Fourier,,2.7549,3.4168,4.6071,3.8048
+input,07 +libur,07 +libur,,2.1973,2.9772,5.1515,3.6859
+input,08 +eksogen tertinda,08 +eksogen tertinda,,2.2463,3.0209,5.101,3.699
+input,09 +eksogen diketahui,09 +eksogen diketahui,,2.1915,2.8804,5.0528,3.5885
+input,10 dasar +komponen VMD,10 dasar +komponen VMD,,2.1865,2.9567,5.2701,3.7108
+konteks,168,168,,3.3789,4.1012,3.3812,3.8665
+konteks,2016,2016,,2.759,3.4473,2.9964,3.3003
+konteks,336,336,,2.9119,3.7234,2.8942,3.4531
+konteks,672,672,,2.7122,3.4843,2.8509,3.2778
+skenario,Chronos-2 +kalender+cuaca sempurna,Chronos-2 +kalender+cuaca sempurna,,2.4087,3.1409,2.7578,3.0161

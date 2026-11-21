@@ -1,0 +1,9 @@
+streamlit>=1.50
+plotly>=5.20
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14
+openpyxl>=3.1
+# Opsional, hanya untuk tab "Coba ramal sendiri" dengan model Chronos:
+# chronos-forecasting>=2.0
+# torch>=2.2
